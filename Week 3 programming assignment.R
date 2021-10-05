@@ -28,4 +28,7 @@ cacheSolve <- function(x, ...) {
   s <- solve(data, ...)
   x$setsolve(s)
   s
+  print(s)
+  x<- array(c(v1),dim(1,2,3))
+  
 }
